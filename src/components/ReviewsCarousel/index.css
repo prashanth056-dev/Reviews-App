@@ -1,0 +1,26 @@
+/* Write your code here */
+.mainBg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+  background-size: cover;
+  color: #fff;
+}
+.arrows {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  max-width: 65%;
+  gap: 30px;
+}
+.btn {
+  outline: none;
+  border: 0px;
+  background-color: #00000000;
+}
+.info {
+  color: #171f46;
+}
